@@ -54,9 +54,10 @@ a, a:hover, a:active {
   color: rgba(255, 255, 255, 0.85);
   border-radius: 50%;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 
-.die p {
+.die p.list {
   width: 50%;
   text-align: right;
 }
