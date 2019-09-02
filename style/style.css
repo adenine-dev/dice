@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -18,5 +17,47 @@ input, textarea {
 a, a:hover, a:active {
   color: inherit;
   text-decoration: none;
+}
+
+#root {
+  width: 95%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.die {
+  width: 45%;
+  display: inline-block;
+  text-align: center;
+  margin: 32px 2.5%;
+  background-color: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 6px -12px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 8px 6px -12px rgba(0, 0, 0, 0.3);
+  padding: 12px;
+}
+
+@media only screen and (max-width: 720px) {
+  .die {
+    width: 90%;
+    margin: 32px auto;
+    display: block;
+  }
+}
+
+.die button {
+  height: 56px;
+  width: 56px;
+  border: none;
+  outline: none;
+  background-color: #70a1ff;
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.die p {
+  width: 50%;
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */
