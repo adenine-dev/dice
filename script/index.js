@@ -24,7 +24,7 @@
         onclick: function(e) {
           history.push(Math.floor(Math.random() * n) + 1)
           e.target.innerText = history[history.length - 1]
-          historyEl.innerText = history.slice(Math.max(0, history.length - 20), history.length - 1).reverse().join(", ") || "history"
+          historyEl.innerText = history.slice(Math.max(0, history.length - 20), history.length - 1).reverse().join(" ,") || "history"
           if(history.length >= 2) historyEl.classList.add("list")
         }
       }, "?"),
