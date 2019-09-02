@@ -13,7 +13,7 @@
   background-color: #fff
   border-radius: 8px
   box-shadow: 0 8px 6px -12px rgba(#000, 0.3)
-  padding: 12px
+  padding: 12px 12px 32px
   @media only screen and (max-width: 720px)
     width: 90%
     margin: 32px auto
@@ -29,6 +29,13 @@
     margin-bottom: 8px
     cursor: pointer
   p
+    position: absolute
+    width: 100%
+    left: 0
+    direction: rtl
     &.list
+      right: 50%
       width: 50%
       text-align: right
+      overflow: hidden
+      white-space: nowrap
